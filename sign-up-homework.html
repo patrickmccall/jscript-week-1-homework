@@ -1,0 +1,102 @@
+﻿<!doctype html>
+<html>
+<head>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <script>
+    $(function () {
+      //$( "#datepicker" ).datepicker();
+    });
+  </script>
+  <!-- jQuery CDN link....
+         <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    -->
+  <meta charset="UTF-8">
+  <title>HTML5: Week One Homework</title>
+  <!-- link to an external style sheet (best practice with style sheet)-->
+  <link href="css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="page">
+  <!-- everything that is visual goes in the body tag  -->
+  <header>
+    <!-- the "banner" area or title of the page-->
+    <h1>HTML5: Week One Homework</h1> <!-- only h1 per page (for SEO purposes) -->
+  </header>
+  <nav class="nav1">
+    <ul>
+      <!-- these links are relative paths -->
+      <li> <a href="#">home</a></li>
+      <li> <a href="#">gallery</a></li>
+      <li> <a href="sign-up.html">Sign Up Here</a></li>
+      <li> <a href="#">Mobile Site</a></li>
+      <li> <a href="http://www.google.com">Google</a></li>
+    </ul>
+  </nav>
+  <div id="mainContent">
+  <h1>Phishtastic Website</h1>
+  <h2>No, not like the band, like you give me information and I use it for nefarious purposes.</h2>
+    <h3>Please provide as much personal information as you can to win a fabulous prize</h3>
+    <!-- A Simple Form    -->
+    <form>
+      <fieldset>
+        <ul>
+          <li>
+            <label id="f-name-label">First Name </label><input id="f-name-label" type="text" name="first-name" placeholder="First Name" />
+          </li>
+          <li>
+            <label id="l-name-label">Last Name </label><input id="l-name-label" type="text" name="last-name" placeholder="Last Name" />
+          </li>
+          <li>
+            <label>e-mail address: </label><input type="text" placeholder="yourname@example.com" pattern="(\w[-._\w]*\w@\w[-._\w]*\w\.\w{2,3})" id="e-mail" />
+          </li>
+          <li>
+            <label>phone number: </label><input type="tel" placeholder="800-123-4567" pattern="^[2-9]\d{2}-\d{3}-\d{4}$" id="phone" />
+          </li>
+          <li>
+            <label>I'm thinking of a number between one and ten, what is it? </label><select name="number-guess">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </li>
+          <li>
+            <label>Mother's Maiden Name: </label><input type="text" placeholder="Mother's Maiden Name"  id="maiden-name" />
+          </li>
+          <li>
+            <label id="c-card-label">Credit Card Number: </label><input id="c-card" type="text" name="credit-card" placeholder="Credit Card" />
+          </li>
+          <li>
+            <label>Type</label>
+            <select>
+              <option value="visa">Visa</option>
+              <option value="mastercard">Mastercard</option>
+              <option value="amex">American Express</option>
+              <option value="diners">Diner's Club</option>
+            </select>
+          </li>
+        </ul>
+        <label>Click Redeem to potentially win a great prize!</label>
+        <input type="submit" name="Redeem" value="Redeem" />
+      </fieldset>
+    </form>
+
+
+
+
+  </div><!-- closing maincContent div tag -->
+  <!--  This is the footer section, only footer stuff -->
+  <footer>
+    <p>&copy; copyright 2015</p>
+
+  </footer>
+
+</body>
+</html>
